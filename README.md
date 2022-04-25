@@ -31,3 +31,5 @@ Extras:
 
 This tutorial is inspired by the book 
 > *Fluent Python (second edition) by Luciano Ramalho (O'Reilly). Copyright 2022 Luciano Ramalho*
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lushep/python-under-the-hood-pycon-2022/HEAD)
