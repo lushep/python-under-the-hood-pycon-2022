@@ -15,5 +15,8 @@ class Deck:
     def size(self):
         return len(self.cards)
     
-d = Deck()
-d.size()
+    def top_card_is_ace(self):
+        return self.cards[-1].rank == 'A'
+
+deck = Deck()
+deck.top_card_is_ace()
