@@ -9,6 +9,9 @@ class Deck:
     def __getitem__(self, position):
         return self._cards[position]
     
+    def __setitem__(self, ind, val):
+        self._cards[ind] = val
+    
     def __add__(self, other):
         return self._cards + other._cards
     
